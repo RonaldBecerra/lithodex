@@ -1,0 +1,25 @@
+// Acciones referentes a la configuración de la aplicación que tiene que ver con las preferencias del usuario
+export const CHANGE_LANGUAGE = 'CHANGE_LANGUAGE';
+export const CHANGE_HEADER_BACKGROUND_COLOR = 'CHANGE_HEADER_BACKGROUND_COLOR';
+export const CHANGE_HEADER_TINT_COLOR = 'CHANGE_HEADER_TINT_COLOR';
+
+// Acciones referentes al usuario
+export const CHANGE_USER_ID = 'CHANGE_USER_ID';
+export const CHANGE_USERNAME = 'CHANGE_USERNAME';
+export const CHANGE_USER_PROFILE_IMAGE = 'CHANGE_USER_PROFILE_IMAGE';
+export const CHANGE_USER_PRIVILEGES = 'CHANGE_USER_PRIVILEGES';
+export const CHANGE_SYNC_HANDLER = 'CHANGE_SYNC_HANDLER';
+
+// Acciones referentes a las bibliotecas, como cuando debe cambiar la lista de litologías debido a que se cambió el idioma
+export const CHANGE_LITHOLOGY_LIST_LANGUAGE = 'CHANGE_LITHOLOGY_LIST_LANGUAGE';
+export const CHANGE_STRUCTURE_LIST_LANGUAGE = 'CHANGE_LITHOLOGY_STRUCTURE_LANGUAGE'; 
+export const CHANGE_FOSSIL_LIST_LANGUAGE    = 'CHANGE_FOSSIL_LIST_LANGUAGE';
+export const CHANGE_NO_CARBONATES_RULE_LANGUAGE = 'CHANGE_NO_CARBONATES_RULE_LANGUAGE';
+export const CHANGE_CARBONATES_RULE_LANGUAGE = 'CHANGE_CARBONATES_RULE_LANGUAGE';
+
+// Acciones referentes al control del flujo entre las vistas
+export const CHANGE_LOAD_VIEW = 'CHANGE_LOAD_VIEW';
+export const CHANGE_GAMMA_RAY_EXTRACT = 'CHANGE_GAMMA_RAY_EXTRACT';
+export const CHANGE_STRATUM_COMPONENT_PERMISSION = 'CHANGE_STRATUM_COMPONENT_PERMISSION';
+export const CHANGE_STACK_SCREENPROPS_FUNCTION = 'CHANGE_STACK_SCREENPROPS_FUNCTION';
+export const CHANGE_HEADER_TITLE = 'CHANGE_HEADER_TITLE';

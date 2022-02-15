@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "LithoDex",
+    "slug": "lithodex",
+    "privacy": "public",
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/lithodex_icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "ve.usb.lithodex",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDpSSpKuvu7CBFWtC0cPSxfC-5Kq5TQR48"
+        }
+      },
+      "permissions": [
+		"ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+		"LOCATION",
+        "CAMERA",
+		"CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW",
+		"INTERNET",
+      ]
+    },
+    "description": ""
+  }
+}
